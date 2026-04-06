@@ -1,4 +1,36 @@
 {
-  "users": [],
-  "tasks": []
+  "users": [
+    {
+      "username": "ilovemakonnen",
+      "password": "$2b$10$H0l1ezw91z5gopQ1D69feeT/Nn3pjWfLqLZnGOWydQUCCCfnikbZ6"
+    },
+    {
+      "username": "123",
+      "password": "$2b$10$xtwAFPu3Xg5TBwu78KQ/LuqSWYmocYwENARKA42DSMCyHX98WRYm."
+    },
+    {
+      "username": "ilovemakonnen2",
+      "password": "$2b$10$SwGjwCKRY.y7dNUr6hTcFOkO21NTLrD/pA6ky.1ibftWsgau9lDoy"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1775446616497,
+      "username": "ilovemakonnen",
+      "text": "123",
+      "priority": "low"
+    },
+    {
+      "id": 1775446620350,
+      "username": "ilovemakonnen",
+      "text": "33",
+      "priority": "medium"
+    },
+    {
+      "id": 1775446632454,
+      "username": "ilovemakonnen2",
+      "text": "2",
+      "priority": "medium"
+    }
+  ]
 }

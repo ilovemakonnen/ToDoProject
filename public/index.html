@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Todo App</h1>
+
+  <div>
+    <input id="username" placeholder="Имя пользователя">
+    <input id="password" placeholder="Пароль" type="password">
+    <button onclick="register()">Регистрация</button>
+    <button onclick="login()">Логин</button>
+  </div>
+
+  <hr>
+
+  <div>
+    <input id="task" placeholder="Задача">
+    <select id="priority">
+      <option value="low">Низкий приоритет</option>
+      <option value="medium">Срдений приоритет</option>
+      <option value="high">Высокий приоритет</option>
+    </select>
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul id="list"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html> 
